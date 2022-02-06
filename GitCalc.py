@@ -8,11 +8,11 @@ def addition(num1, num2):
     return num1 + num2
 
 
-def subtraction(num2, num1):
+def subtraction(num1, num2):
     return num1 - num2
 
 
-def divide(num1, num1):
+def divide(num1, num2):
     return num1 / num2
 
 
@@ -23,12 +23,12 @@ while True:
     print("Select operation 1-Division, 2-Multiplication, 3-Addition, 4-Subtraction")
 
     operation = int(input("Choose operation 1/2/3/4: ")
-                    if operation == 1
+    if operation == 1:
     print(value1, "/", value2, "=", divide(value1, value2))
 
     elif operation == 2:
     print(value1, "*", value2, "=", multiplication(value1, value2))
-    elif operation = 3:
+    elif operation == 3:
     print(value1, "+", value2, "=", addition(value1, value2))
     elif operation == 4:
     print(value1, "-", value2, "=", subtraction(value1, value2)))
